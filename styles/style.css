@@ -186,6 +186,128 @@ text-decoration: none;
   height: 285px;
 }
 
+/* ----- Leatest deal section ----- */
+
+.deal-section{
+  text-align: center;
+  margin: 0 130px auto;
+}
+
+.offer-section{
+  margin: 140px 130px;
+  
+}
+
+
+.row-1{
+  background-image: url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 200px;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.row-2{
+  background-image: url(../assets/deal-ana.png);
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 200px;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-3{
+  background-image: url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  width: 750px;
+  height: 420px;
+  border-radius: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+
+
+.offer-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.shop-now{
+  font-weight: 600;
+  color: white;
+}
+
+.main-title{
+  color: white;
+  margin-bottom: 0;
+}
+
+.subtitle{
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+a{
+  /* color: white; */
+}
+
+/* ---- Join section ---- */
+.join-section{
+  height: 533px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  
+   
+}
+
+.join-section-title{
+  color: white;
+}
+
+.join-form{
+  text-align: center;
+  justify-content: center;
+  
+}
+
+input{
+  width: 40.35rem;
+}
+
+/* ---- Footer ralated style ---- */
+
+footer{
+  margin: 0 130px 50px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-column{
+  margin-right: 110px;
+}
+
+.footer-icons{
+  gap: 5px;
+}
+
 @media  screen and (max-width:576px) {
 
   .product-container{
@@ -248,10 +370,38 @@ text-decoration: none;
   
  }
 
+ .inner{
+  display: none;
+ }
+
  .flower-content{
   text-align: center;
   width: 500px;
  }
+
+ .deal-section{
+  margin: 20px;
+ }
+
+ .offer-section{
+  flex-direction: column;
+  margin: 20px;
+  gap: 10px;
+  
+ }
+
+ .row-3{
+  margin-left: auto;
+  width: 100%;
+  text-align: center;
+ }
+
+ .join-form{
+  width: 100%;
+ }
+
+
+
 
 
 }
