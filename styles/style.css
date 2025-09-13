@@ -259,8 +259,8 @@ text-decoration: none;
   font-weight: 600;
 }
 
-a{
-  /* color: white; */
+.offer-section a{
+  color: white;
 }
 
 /* ---- Join section ---- */
@@ -301,11 +301,21 @@ footer{
 }
 
 .footer-column{
-  margin-right: 110px;
+  
 }
 
-.footer-icons{
-  gap: 5px;
+.footer-column ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-column a{
+  text-decoration: none;
+  color: #8987A1;
+}
+
+.footer-icons a{
+  margin-right: 1.5rem;
 }
 
 @media  screen and (max-width:576px) {
@@ -398,8 +408,17 @@ footer{
 
  .join-form{
   width: 100%;
+  height: auto;
  }
 
+ footer{
+  margin: 50px 20px;
+  flex-direction: column;
+ }
+
+ footer ul{
+  padding-left: 0px;
+ }
 
 
 
